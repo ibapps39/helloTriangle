@@ -11,6 +11,8 @@
 		3CE3EF6B2CA8796B003539F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3EF6A2CA8796B003539F2 /* ContentView.swift */; };
 		3CE3EF6D2CA8796C003539F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3EF6C2CA8796C003539F2 /* Assets.xcassets */; };
 		3CE3EF702CA8796C003539F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CE3EF6F2CA8796C003539F2 /* Preview Assets.xcassets */; };
+		3CE3EF792CA879D3003539F2 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3EF782CA879D3003539F2 /* MetalView.swift */; };
+		3CE3EF7D2CA8B517003539F2 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3CE3EF7C2CA8B517003539F2 /* Shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3CE3EF6A2CA8796B003539F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3CE3EF6C2CA8796C003539F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CE3EF6F2CA8796C003539F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CE3EF782CA879D3003539F2 /* MetalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		3CE3EF7C2CA8B517003539F2 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3CE3EF682CA8796B003539F2 /* helloTriangleApp.swift */,
 				3CE3EF6A2CA8796B003539F2 /* ContentView.swift */,
+				3CE3EF782CA879D3003539F2 /* MetalView.swift */,
+				3CE3EF7C2CA8B517003539F2 /* Shaders.metal */,
 				3CE3EF6C2CA8796C003539F2 /* Assets.xcassets */,
 				3CE3EF6E2CA8796C003539F2 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CE3EF7D2CA8B517003539F2 /* Shaders.metal in Sources */,
+				3CE3EF792CA879D3003539F2 /* MetalView.swift in Sources */,
 				3CE3EF6B2CA8796B003539F2 /* ContentView.swift in Sources */,
 				3CE3EF692CA8796B003539F2 /* helloTriangleApp.swift in Sources */,
 			);
